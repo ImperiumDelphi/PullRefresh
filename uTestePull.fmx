@@ -1,0 +1,41 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  Caption = 'Form6'
+  ClientHeight = 480
+  ClientWidth = 310
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Contents
+    ClipChildren = True
+    Size.Width = 310.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Scroll1: TVertScrollBox
+      Align = Contents
+      Size.Width = 310.000000000000000000
+      Size.Height = 480.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Viewport.Width = 310.000000000000000000
+      Viewport.Height = 480.000000000000000000
+    end
+  end
+  inline PullRefresh1: TPullRefresh
+    Position.X = 57.000000000000000000
+    Position.Y = 57.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    inherited Circle1: TCircle
+      inherited Path1: TPath
+        Fill.Color = claCornflowerblue
+      end
+    end
+  end
+end
